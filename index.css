@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(71, 79, 98)
+}
+
+/* Add a background color to the top navigation */
+.navbar {
+  background-color: rgb(208, 210, 214);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  color: rgb(9, 36, 48);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Bahnschrift', sans-serif;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: rgb(237, 247, 251);
+  color: rgb(9, 36, 48);
+}
+
+/* Add a color to the active/current link */
+.navbar a.main {
+  background-color: rgb(9, 36, 48);
+  color: rgb(237, 247, 251);
+  font-family: 'Bahnschrift', sans-serif;
+}
